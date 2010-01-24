@@ -114,14 +114,7 @@ namespace FubuMVC.Core.Registration
         {
             _behaviors.Each(visitor.VisitBehavior);
         }
-
-        public void VisitBehaviors(Action<BehaviorVisitor> configure)
-        {
-            var visitor = new BehaviorVisitor();
-            configure(visitor);
-            VisitBehaviors(visitor);
-        }
-
+        
         public void AddChain(BehaviorChain chain)
         {
             _behaviors.Add(chain);
