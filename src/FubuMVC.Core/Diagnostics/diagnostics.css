@@ -55,3 +55,8 @@ TABLE.details TH
 	font-family: Consolas, Courier New, Courier;
 	font-size: smaller;
 }
+
+
+.summary {
+	margin: 5px 10px;
+}
