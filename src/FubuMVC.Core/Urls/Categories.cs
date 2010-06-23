@@ -2,10 +2,10 @@ namespace FubuMVC.Core.Urls
 {
     public static class Categories
     {
-        public static readonly string DEFAULT = "None";
-        public static readonly string EDIT = "Edit";
-        public static readonly string NEW = "New";
-        public static readonly string NONE = "None";
-        public static readonly string PROPERTY_EDIT = "PropertyEdit";
+        public const string DEFAULT = "None";
+        public const string EDIT = "Edit";
+        public const string NEW = "New";
+        public const string NONE = "None";
+        public const string PROPERTY_EDIT = "PropertyEdit";
     }
 }
